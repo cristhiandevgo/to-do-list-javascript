@@ -1,0 +1,52 @@
+body{
+    background-color: #CCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #424242;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    max-width: 480px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.content{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 28px;
+    color: mediumslateblue;
+    margin: 1rem 0 1rem 0;
+}
+
+input[type="text"]{
+    outline: none;
+    border: 1px solid #AAA;
+    height: 30px;
+    border-radius: 0.5rem;
+}
+
+button{
+    border-radius: 0.5rem;
+    border: 1px solid mediumslateblue;
+    background-color: mediumslateblue;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.new_task div{
+    margin: 10px 0 10px 0;
+}
+
+input:checked + label{
+    color: #AAA;
+    text-decoration: line-through;
+}
